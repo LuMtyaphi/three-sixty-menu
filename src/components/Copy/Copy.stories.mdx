@@ -1,0 +1,29 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks"
+import Copy from "./"
+
+<Meta title="/Copy" component={Copy} />
+
+# Default:
+
+<Canvas>
+  <Story name="default">
+    <Copy>
+      Tomaten, Fior di Latte Mozzarella, Gyros Fleisch, Zwiebeln, Fetakäse,
+      Joghurtsoße
+    </Copy>
+  </Story>
+</Canvas>
+
+# these are all the size options:
+
+<Canvas>
+  <Story name="small">
+    <Copy size="small">small text</Copy>
+  </Story>
+  <Story name="medium">
+    <Copy size="medium">medium text</Copy>
+  </Story>
+  <Story name="large">
+    <Copy size="large">large text</Copy>
+  </Story>
+</Canvas>

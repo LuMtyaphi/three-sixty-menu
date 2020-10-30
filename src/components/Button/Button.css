@@ -1,0 +1,64 @@
+.button {
+  width: 61px;
+  height: 61px;
+  border: none;
+  background-color: #181818;
+  color: white;
+  font-size: 10px;
+}
+.button:hover {
+  border: 1px solid orangered;
+  background-color: black;
+  color: orangered;
+}
+.button:focus {
+  border: 1px solid white;
+  background-color: black;
+  color: orangered;
+}
+
+.blackbig {
+  background-color: #181818;
+}
+
+.redbig {
+  background-color: #f44336;
+}
+
+.blacksmall {
+  background-color: #181818;
+  width: 31px;
+  height: 31px;
+  font-size: 20px;
+}
+
+.blacksmall:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.redsmall {
+  background-color: #f44336;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px 0;
+}
+
+.redsmall:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.redlong {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #f44336;
+}
+
+.redlong:hover {
+  background-color: orangered;
+  color: white;
+}
